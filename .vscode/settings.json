@@ -9,18 +9,6 @@
             "previewLimit": 50,
             "server": "localhost",
             "driver": "PostgreSQL",
-            "connectString": "postgresql://cse340z2_user:XYYtSCkK8GOJXSd3HObm8B1hBWfJBQE0@dpg-cu8k6dtsvqrc73bbgj40-a.ohio-postgres.render.com/cse340z2",
-            "name": "Render.com"
-        },
-        {
-            "pgOptions": {
-                "ssl": {
-                    "rejectUnauthorized": true
-                }
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "driver": "PostgreSQL",
             "name": "Render.com2",
             "connectString": "postgresql://cse340z2r:yeSwxATggvGpukyTCo9lTD3TsnLwf8kG@dpg-cuihvvtumphs7381dcg0-a.ohio-postgres.render.com/cse340z2r"
         }
