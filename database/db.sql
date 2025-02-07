@@ -63,6 +63,11 @@ WHERE account_firstname LIKE '%Tony%';
 UPDATE public.inventory
 SET inv_description = REPLACE(inv_description, 'the small interiors', 'a huge interior')
 WHERE inv_model LIKE '%Hummer%';
+
+SELECT i.inv_make, i.inv_model, c.classification_name
+FROM public.inventory i
+INNER JOIN public.classification c ON i.classification_id = c.classification_id
+WHERE c.classification_name = 'Sport';
 	
 UPDATE public.inventory
 SET inv_image = REPLACE(inv_image, 'images/', 'images/vehicles/')
